@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-istanbul": "^0.12.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "precommit": "eslint src",
+    "prepush": "npm test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-plugin-react": "^7.3.0",
+    "husky": "^0.14.3"
+  }
+}
